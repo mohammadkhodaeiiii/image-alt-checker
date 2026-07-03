@@ -1,0 +1,20 @@
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Archives
+*.zip
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.*
