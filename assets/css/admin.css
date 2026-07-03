@@ -1,0 +1,299 @@
+/**
+ * Image Alt Checker - admin styles.
+ *
+ * RTL aware via logical properties. Honors prefers-reduced-motion.
+ */
+
+.iac-wrap {
+	max-width: 1100px;
+}
+
+.iac-title {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.iac-title .dashicons {
+	font-size: 28px;
+	width: 28px;
+	height: 28px;
+}
+
+.iac-subtitle {
+	color: #50575e;
+	font-size: 14px;
+	margin-top: 0;
+}
+
+.iac-inline-notice {
+	margin: 12px 0;
+}
+
+.iac-section-title {
+	margin-top: 28px;
+}
+
+/* Cards ------------------------------------------------------------------- */
+
+.iac-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	padding: 20px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.iac-cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+	gap: 16px;
+	margin-top: 20px;
+}
+
+.iac-cards .iac-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 4px;
+	border-inline-start: 4px solid #c3c4c7;
+}
+
+.iac-cards .iac-card .dashicons {
+	font-size: 22px;
+	width: 22px;
+	height: 22px;
+	color: #646970;
+}
+
+.iac-card-value {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #1d2327;
+}
+
+.iac-card-label {
+	color: #50575e;
+	font-size: 13px;
+}
+
+.iac-card--good {
+	border-inline-start-color: #00a32a;
+}
+
+.iac-card--good .dashicons {
+	color: #00a32a;
+}
+
+.iac-card--bad {
+	border-inline-start-color: #d63638;
+}
+
+.iac-card--bad .dashicons {
+	color: #d63638;
+}
+
+.iac-card--warn {
+	border-inline-start-color: #dba617;
+}
+
+.iac-card--warn .dashicons {
+	color: #dba617;
+}
+
+/* Empty state ------------------------------------------------------------- */
+
+.iac-empty-state {
+	text-align: center;
+	margin-top: 24px;
+	padding: 48px 24px;
+}
+
+.iac-empty-state .dashicons {
+	font-size: 48px;
+	width: 48px;
+	height: 48px;
+	color: #2271b1;
+}
+
+.iac-empty-state h2 {
+	margin: 12px 0 4px;
+}
+
+/* Score ------------------------------------------------------------------- */
+
+.iac-score-row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 28px;
+	margin-top: 20px;
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 10px;
+	padding: 24px;
+}
+
+.iac-score {
+	--iac-score: 0;
+	position: relative;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background:
+		radial-gradient(closest-side, #fff 78%, transparent 79% 100%),
+		conic-gradient(#00a32a calc(var(--iac-score) * 1%), #e0e0e0 0);
+	flex-shrink: 0;
+}
+
+.iac-score-value {
+	font-size: 30px;
+	font-weight: 700;
+	color: #1d2327;
+}
+
+.iac-score-label {
+	font-size: 12px;
+	color: #50575e;
+}
+
+.iac-score-meta p {
+	margin: 4px 0;
+}
+
+.iac-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-top: 12px;
+}
+
+/* Scanner ----------------------------------------------------------------- */
+
+.iac-scanner {
+	margin-top: 20px;
+}
+
+.iac-scanner-controls {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 18px;
+}
+
+.iac-scanner-controls .button .dashicons {
+	vertical-align: middle;
+	margin-inline-end: 2px;
+}
+
+.iac-progress-wrap {
+	margin-top: 8px;
+}
+
+.iac-progress {
+	width: 100%;
+	height: 18px;
+	background: #e0e0e0;
+	border-radius: 999px;
+	overflow: hidden;
+}
+
+.iac-progress-fill {
+	display: block;
+	height: 100%;
+	width: 0;
+	background: linear-gradient(90deg, #2271b1, #00a32a);
+	transition: width 240ms ease;
+}
+
+.iac-progress-meta {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 8px;
+	font-size: 13px;
+	color: #50575e;
+}
+
+.iac-status {
+	font-weight: 600;
+}
+
+/* Stats ------------------------------------------------------------------- */
+
+.iac-stats {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	gap: 12px;
+	margin-top: 12px;
+}
+
+.iac-stat {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 14px;
+	text-align: center;
+}
+
+.iac-stat-value {
+	display: block;
+	font-size: 24px;
+	font-weight: 700;
+	color: #1d2327;
+}
+
+.iac-stat-label {
+	display: block;
+	font-size: 12px;
+	color: #50575e;
+	margin-top: 2px;
+}
+
+.iac-stat.is-updated .iac-stat-value {
+	color: #2271b1;
+}
+
+/* Report table ------------------------------------------------------------ */
+
+.iac-report-table {
+	margin-top: 16px;
+}
+
+.iac-report-table .iac-num {
+	text-align: end;
+	width: 22%;
+}
+
+.iac-summary-line {
+	margin: 12px 0;
+	color: #50575e;
+}
+
+.iac-settings hr {
+	margin: 28px 0 16px;
+}
+
+/* Checkbox rows ----------------------------------------------------------- */
+
+.iac-checkbox-row {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	margin: 2px 12px 2px 0;
+}
+
+.iac-unit {
+	color: #646970;
+	margin-inline-start: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.iac-progress-fill {
+		transition: none;
+	}
+}

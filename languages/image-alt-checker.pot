@@ -1,0 +1,288 @@
+# Copyright (C) 2026 Mohammad Khodaei
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Image Alt Checker 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/mohammadkhodaei/image-alt-checker\n"
+"Last-Translator: Mohammad Khodaei\n"
+"Language-Team: Mohammad Khodaei\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: image-alt-checker\n"
+
+msgid "Image Alt Checker"
+msgstr ""
+
+msgid "Find missing, empty, duplicate or low-quality image ALT text across your content."
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Scanner"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Performance"
+msgstr ""
+
+msgid "Choose what the scanner inspects and how it treats special images."
+msgstr ""
+
+msgid "Tune how the scanner processes large sites in batches."
+msgstr ""
+
+msgid "Enable scanner"
+msgstr ""
+
+msgid "Allow the scanner to run on this site."
+msgstr ""
+
+msgid "Post types"
+msgstr ""
+
+msgid "Content of the selected post types will be scanned."
+msgstr ""
+
+msgid "No public post types found."
+msgstr ""
+
+msgid "Ignore SVG"
+msgstr ""
+
+msgid "Skip SVG images during scanning."
+msgstr ""
+
+msgid "Ignore decorative images"
+msgstr ""
+
+msgid "Skip images marked as decorative (role=\"presentation\" or aria-hidden)."
+msgstr ""
+
+msgid "Automatic scan"
+msgstr ""
+
+msgid "Start a scan automatically when opening the Scanner page."
+msgstr ""
+
+msgid "Batch size"
+msgstr ""
+
+msgid "posts per batch"
+msgstr ""
+
+msgid "Maximum scan limit"
+msgstr ""
+
+msgid "posts"
+msgstr ""
+
+msgid "Cache lifetime"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Restore every setting to its default value. This cannot be undone."
+msgstr ""
+
+msgid "Reset settings"
+msgstr ""
+
+msgid "Reset all settings to defaults?"
+msgstr ""
+
+msgid "Settings have been reset to their defaults."
+msgstr ""
+
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+msgid "You do not have permission to access this page."
+msgstr ""
+
+msgid "You do not have permission to do this."
+msgstr ""
+
+msgid "Security check failed."
+msgstr ""
+
+msgid "The scanner is disabled in the settings."
+msgstr ""
+
+msgid "Cache cleared."
+msgstr ""
+
+msgid "Scan your content in batches and watch the results update live."
+msgstr ""
+
+msgid "The scanner is currently disabled."
+msgstr ""
+
+msgid "Enable it in Settings"
+msgstr ""
+
+msgid "No post types are selected for scanning."
+msgstr ""
+
+msgid "Choose post types in Settings"
+msgstr ""
+
+msgid "Start scan"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Clear cache"
+msgstr ""
+
+msgid "Idle"
+msgstr ""
+
+msgid "Live results"
+msgstr ""
+
+msgid "Scanned posts"
+msgstr ""
+
+msgid "Scanned images"
+msgstr ""
+
+msgid "Passed images"
+msgstr ""
+
+msgid "Without ALT"
+msgstr ""
+
+msgid "Empty ALT"
+msgstr ""
+
+msgid "Duplicate ALT"
+msgstr ""
+
+msgid "ALT too long"
+msgstr ""
+
+msgid "ALT too short"
+msgstr ""
+
+msgid "ALT equals file name"
+msgstr ""
+
+msgid "Suspicious ALT"
+msgstr ""
+
+msgid "Decorative images"
+msgstr ""
+
+msgid "Images needing attention"
+msgstr ""
+
+msgid "A scan is currently in progress."
+msgstr ""
+
+msgid "Open the Scanner"
+msgstr ""
+
+msgid "No scan has been run yet"
+msgstr ""
+
+msgid "Run your first scan to see accessibility and SEO statistics for your images."
+msgstr ""
+
+msgid "Start scanning"
+msgstr ""
+
+msgid "Healthy images"
+msgstr ""
+
+msgid "Last scan:"
+msgstr ""
+
+msgid "Duration:"
+msgstr ""
+
+msgid "Run new scan"
+msgstr ""
+
+msgid "View full report"
+msgstr ""
+
+msgid "Missing ALT"
+msgstr ""
+
+msgid "Whitespace-only ALT"
+msgstr ""
+
+msgid "No report available"
+msgstr ""
+
+msgid "Run a scan to generate a detailed report."
+msgstr ""
+
+msgid "Go to Scanner"
+msgstr ""
+
+msgid "Scan results summary"
+msgstr ""
+
+msgid "Metric"
+msgstr ""
+
+msgid "Count"
+msgstr ""
+
+msgid "Share of images"
+msgstr ""
+
+msgid "Without ALT (total)"
+msgstr ""
+
+msgid "Scan duration"
+msgstr ""
+
+#. translators: %d: percentage.
+msgid "Health score: %d percent"
+msgstr ""
+
+#. translators: %s: number of seconds.
+msgid "%s seconds"
+msgstr ""
+
+#. translators: %s: formatted date/time.
+msgid "Last scan completed on %s."
+msgstr ""
+
+msgid "Starting scan…"
+msgstr ""
+
+msgid "Scanning…"
+msgstr ""
+
+msgid "Scan complete."
+msgstr ""
+
+msgid "Scan cancelled."
+msgstr ""
+
+msgid "An error occurred. Please try again."
+msgstr ""
+
+msgid "Are you sure?"
+msgstr ""
+
+msgid "A scan is in progress. Leaving will stop it."
+msgstr ""
